@@ -1,0 +1,18 @@
+# yolov5-tutorial yaml file https://github.com/BuilderBoba/yolov5-data-tutorial
+# Train command: python train.py --data dogcat.yaml
+# Place yaml within yolov5-master/data
+
+train: labelled_set/train_set  # 200 images
+val: labelled_set/val_set # 50 images
+
+# number of classes
+nc: 2
+
+# class names
+names: ['dog', 'cat']
+
+
+
+
+
+
